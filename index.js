@@ -1,8 +1,8 @@
-const fs = require('fs');
-const puppeteer = require('puppeteer');
+const fs = require('fs')
+const puppeteer = require('puppeteer')
 
 async function run() {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch()
   const page = await browser.newPage();
   await page.goto('https://www.traversymedia.com');
 
